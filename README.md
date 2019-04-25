@@ -15,8 +15,12 @@ Simple Ionic 4 Todo Application Demo
       - Open your default browser
       - Back in the terminal type "ionic serve"
       - Once the application is open in a browser tab. Resize the window to simulate a phone screen, or use the browser developer tools for your browser to do the resizing for you.
-      
+
+---
+
 **Screenshots**
+
+I will shrink the screenshots when I get a chance. For now please just zoom out the page very far and then view the screenshots.
 
 ![](https://i.ibb.co/Gp3Z4LD/Screenshot-20190424-224832-My-App.jpg)
 ![](https://i.ibb.co/0qq6PpK/Screenshot-20190424-224837-My-App.jpg)
