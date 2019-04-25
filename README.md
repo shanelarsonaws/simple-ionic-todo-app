@@ -21,7 +21,7 @@ Simple Ionic 4 Todo Application Demo
 
 **Screenshots**
 
-**(Desktop/Laptop Users)** I will shrink the screenshots when I get a chance. For now please just zoom out the page very far and then view the screenshots or view this readme on your mobile device. Thanks!
+**(Desktop/Laptop Users)** I will shrink the screenshots when I get a chance. For now please just zoom out the page very far and then view the screenshots, or view this readme on your mobile device. Thanks!
 
 ![](https://i.ibb.co/Gp3Z4LD/Screenshot-20190424-224832-My-App.jpg)
 ![](https://i.ibb.co/0qq6PpK/Screenshot-20190424-224837-My-App.jpg)
