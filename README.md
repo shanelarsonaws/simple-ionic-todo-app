@@ -12,6 +12,7 @@ Simple Ionic 4 Todo Application Demo
     - Clone the Github repository
       - Open a terminal and type "git clone https://github.com/shanelarsonaws/simple-ionic-todo-app.git"
       - Type "cd simple-ionic-todo-app"
+      - Type "npm install"
       - Open your default browser
       - Back in the terminal type "ionic serve"
       - Once the application is open in a browser tab. Resize the window to simulate a phone screen, or use the browser developer tools for your browser to do the resizing for you.
@@ -20,7 +21,7 @@ Simple Ionic 4 Todo Application Demo
 
 **Screenshots**
 
-I will shrink the screenshots when I get a chance. For now please just zoom out the page very far and then view the screenshots.
+**(Desktop/Laptop Users)** I will shrink the screenshots when I get a chance. For now please just zoom out the page very far and then view the screenshots or view this readme on your mobile device. Thanks!
 
 ![](https://i.ibb.co/Gp3Z4LD/Screenshot-20190424-224832-My-App.jpg)
 ![](https://i.ibb.co/0qq6PpK/Screenshot-20190424-224837-My-App.jpg)
