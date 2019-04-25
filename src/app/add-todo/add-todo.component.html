@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="end">
+            <ion-button (click)="closeModal()">
+                <ion-icon slot="icon-only" name="close-circle"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+        <ion-title>
+            Add Todo
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <form (ngSubmit)="addTodo()">
+        <ion-item>
+            <ion-label position="floating">Due Date</ion-label>
+            <ion-datetime displayFormat="MM/DD/YYYY" [min]="minTodaysDate" [placeholder]="todaysDate" name="selectedDate" [(ngModel)]="selectedDate"></ion-datetime>
+        </ion-item>
+        <ion-item>
+            <ion-label>Title</ion-label>
+            <ion-input type="text" name="title" [(ngModel)]="title" (ionChange)="clearError()"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label>Note</ion-label>
+            <ion-textarea name="note" [(ngModel)]="note" (ionChange)="clearError()"></ion-textarea>
+        </ion-item>
+        <ion-item *ngIf="error">
+            <ion-label color="danger" class="error">title and note cannot be empty</ion-label>
+        </ion-item>
+        <ion-button type="submit" expand="full">Add Todo</ion-button>
+    </form>
+</ion-content>

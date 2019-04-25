@@ -1,0 +1,20 @@
+<ion-card>
+    <ion-card-header>
+        <ion-card-subtitle>Due {{timestamp | date}} ({{dueMessage}})</ion-card-subtitle>
+        <ion-card-title>{{title}}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+        {{note}}
+        <ion-grid>
+            <ion-row>
+                <ion-col>
+                    <ion-button size="small" (click)="removeTodo()">Check Off</ion-button>
+                </ion-col>
+                <ion-col>
+                    <ion-button size="small" color="danger" (click)="removeTodo()">Forget</ion-button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-card-content>
+</ion-card>

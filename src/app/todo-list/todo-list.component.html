@@ -1,0 +1,7 @@
+<app-todo *ngFor="let todo of todoList" [id]="todo.id" [title]="todo.title" [note]="todo.note"
+          [timestamp]="todo.timestamp"></app-todo>
+<ion-card *ngIf="todoList.length == 0">
+  <ion-card-header>
+    <ion-card-title>no tasks</ion-card-title>
+  </ion-card-header>
+</ion-card>
